@@ -455,6 +455,11 @@ textarea::placeholder {
   padding-top: 12px;
 }
 
+input{
+  color: #ffffff80;
+
+  font-size: 1em;
+}
 /****************************** responsive******************************/
 
 /* @media screen and (max-width:780px) {
