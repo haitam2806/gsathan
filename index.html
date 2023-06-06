@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>G. Sathan </title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+          <div class="navigation">
+            <ul>
+              <li class="list accueil">
+                <a href="#accueil">
+                  <span class="icon">
+                    <ion-icon name="home-outline"></ion-icon>
+                  </span>
+  
+                  <span class="texte">Accueil</span>
+                </a>
+              </li>
+              <li class="list profile">
+                <a href="#profile">
+                  <span class="icon">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </span>
+  
+                  <span class="texte">Profil</span>
+                </a>
+              </li>
+              <li class="list portfolio">
+                <a href="#portfolio">
+                  <span class="icon">
+                    <ion-icon name="documents-outline"></ion-icon>
+                  </span>
+                  <span class="texte">Portfolio</span>
+                </a>
+              </li>
+              <li class="list contact">
+                <a href="#contact">
+                  <span class="icon">
+                    <ion-icon name="chatbubble-outline"></ion-icon>
+                  </span>
+                  <span class="texte">Contact</span>
+                </a>
+              </li>
+              <div class="indicator"></div>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+    <div class="container">
+        <div class="blocHorizontal">
+
+            <section class="slide one" id="accueil">
+                <img src="./logo/Logo.png" id="logo" alt="">
+                <img src="./logo/LogoMobile.png" id="logoMobile" alt="">
+            </section>
+
+            <section class="slide two" id="profile">
+                <div class="rectangle">
+                     <img src="./image/photo-G-S.jpg" id="photo_G" alt="">
+                     <h2>Gérard Sathan</h2>
+                </div>
+                <p id="apropos">
+                    Je suis tatoueur depuis 2018. Je suis
+                    spécialisé dans le blackwork. C’est à dire l’encre
+                    noire et généralement, des thématiques plus sombres.
+                    <br>
+                    J’ai d’abord commencé par travailler sur de généreux
+                    cobayes : amis, amis d’amis etc. J’ai ensuite démarché
+                    de nombreux salons afin d’y travailler et développer
+                    les très nombreuses compétences nécessaires au bon
+                    exercice du métier.
+                    <br>
+                    L’acte est relativement intime car il s’agit d’une
+                    altération définitive de l’intégrité physique. Il
+                    est important de le comprendre avant d’envisager
+                    quoique ce soit.
+                </p>
+            </section>
+
+            <section class="slide three" id="portfolio">
+                <div class="container-h2">
+                    <h2>Voici quelques-unes de mes créations pour illustrer mon travail.</h2>
+                </div>
+                <div class="slider-container slider-1">
+                    <div class="slider">
+                        <img src="./image/1.jpg" alt="">
+                        <img src="./image/2.jpg" alt="">
+                        <img src="./image/3.jpg" alt="">
+                        <img src="./image/4.jpg" alt="">
+                        <img src="./image/5.jpg" alt="">
+                        <img src="./image/6.jpg" alt="">
+                        <img src="./image/7.jpg" alt="">
+                        <img src="./image/8.jpg" alt="">
+                        <img src="./image/9.jpg" alt="">
+                        <img src="./image/10.jpg" alt="">
+                        <img src="./image/11.jpg" alt="">
+                        <img src="./image/12.jpg" alt="">
+                        <img src="./image/13.jpg" alt="">
+                        <img src="./image/14.jpg" alt="">
+                        <img src="./image/15.jpg" alt="">
+                        <img src="./image/16.jpg" alt="">
+                        <img src="./image/17.jpg" alt="">
+                        <img src="./image/18.jpg" alt="">
+                    </div>
+                </div>
+                <a href="https://www.instagram.com/gerard_sathan/" target="_blank">
+                    <button type="button">
+                        <p>Voir plus sur <img src="./icon/iconInstagram.png"></p>
+                    </button>
+                </a>
+            </section>
+
+            <section class="slide four" id="contact">
+                <div class="contact-container">
+                    <h2>Une question, un conseil ?
+                        <br>Contactez-nous !
+                    </h2>
+                    <input type="text" class="formulaire" id="formulaire-nom" placeholder="Entrez votre nom">
+                    <div class="flexDirectionRow">
+                        <input type="text" class="formulaire formulaire-num-email" placeholder="Entrez votre numéro">
+                        <input type="text" class="formulaire formulaire-num-email top" placeholder="Entrez votre email">
+                    </div>
+                    <textarea name="message" class="formulaire" id="formulaire-question"
+                        placeholder="Posez votre question"></textarea>
+                    <div class="flexDirectionRow">
+                        <button type="button">
+                            <p>Envoyer</p>
+                        </button>
+                        <a href="https://www.instagram.com/gerard_sathan/" target="_blank">
+                            <button type="button" class="top">
+                                <p>Me contacter sur   <img src="./icon/iconInstagram.png"> </p>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section> 
+
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
