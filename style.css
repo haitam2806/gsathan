@@ -385,7 +385,7 @@ a {
 
 .contact-container {
   width: 800px;
-  height: 370px;
+  height: 450px;
   border-radius: 15px;
   border: #fff solid 1px;
   display: flex;
@@ -438,11 +438,15 @@ button {
   height: 50px;
   border-radius: 10px;
   margin: 0 10px;
+  flex-direction: row;
 }
 
 button p {
   font-size: 1.5em;
   font-weight: 600;
+}
+button img{
+  width: 20px;
 }
 
 ::placeholder {
